@@ -1,0 +1,273 @@
+{
+  "greeting": {
+    "patterns": [
+      "hello",
+      "hi",
+      "hey",
+      "good morning",
+      "good afternoon",
+      "good evening",
+      "hello there",
+      "hey there"
+    ],
+    "responses": [
+      "Hello! 👋 How can I help you?",
+      "Hi there! I'm CodeBot. What would you like to know?",
+      "Hey! 👋 I'm ready to help."
+    ]
+  },
+
+  "goodbye": {
+    "patterns": [
+      "bye",
+      "goodbye",
+      "see you",
+      "see you later",
+      "exit",
+      "quit",
+      "good night"
+    ],
+    "responses": [
+      "Goodbye! 👋 Have a great day!",
+      "See you later! Keep coding. 🚀",
+      "Goodbye! Thanks for chatting with CodeBot."
+    ]
+  },
+
+  "bot_identity": {
+    "patterns": [
+      "what is your name",
+      "what's your name",
+      "who are you",
+      "what are you",
+      "tell me about yourself",
+      "introduce yourself"
+    ],
+    "responses": [
+      "I'm CodeBot 🤖, an advanced rule-based NLP chatbot built with Python.",
+      "My name is CodeBot. I use predefined rules, intent detection, fuzzy matching, entity extraction, and conversation memory."
+    ]
+  },
+
+  "name_query": {
+    "patterns": [
+      "what is my name",
+      "what's my name",
+      "do you know my name",
+      "remember my name",
+      "can you remember my name"
+    ],
+    "responses": []
+  },
+
+  "artificial_intelligence": {
+    "patterns": [
+      "ai",
+      "what is ai",
+      "what is artificial intelligence",
+      "artificial intelligence",
+      "define ai",
+      "define artificial intelligence",
+      "tell me about ai",
+      "tell me about artificial intelligence",
+      "explain ai",
+      "explain artificial intelligence",
+      "can you explain ai",
+      "can you explain artificial intelligence",
+      "how does ai work"
+    ],
+    "responses": [
+      "Artificial Intelligence (AI) is the field of computer science focused on creating systems that can perform tasks requiring human-like intelligence.",
+      "AI enables computers to perform tasks such as understanding language, recognizing images, making predictions, and solving problems."
+    ]
+  },
+
+  "machine_learning": {
+    "patterns": [
+      "ml",
+      "machine learning",
+      "what is ml",
+      "what is machine learning",
+      "define ml",
+      "define machine learning",
+      "tell me about ml",
+      "tell me about machine learning",
+      "explain ml",
+      "explain machine learning",
+      "can you explain machine learning",
+      "how does machine learning work"
+    ],
+    "responses": [
+      "Machine Learning is a branch of AI where systems learn patterns from data to make predictions or decisions.",
+      "Machine Learning allows computers to learn from examples and improve their performance without being explicitly programmed for every situation."
+    ]
+  },
+
+  "python": {
+    "patterns": [
+      "python",
+      "what is python",
+      "tell me about python",
+      "python language",
+      "what is python language",
+      "explain python",
+      "can you explain python",
+      "why learn python",
+      "where is python used"
+    ],
+    "responses": [
+      "Python is a high-level programming language widely used in AI, machine learning, automation, web development, and data science.",
+      "Python is popular because of its readable syntax, large ecosystem, and extensive libraries."
+    ]
+  },
+
+  "programming": {
+    "patterns": [
+      "programming",
+      "coding",
+      "what is programming",
+      "what is coding",
+      "define programming",
+      "define coding",
+      "explain programming",
+      "how does programming work"
+    ],
+    "responses": [
+      "Programming is the process of writing instructions that tell a computer how to perform a task.",
+      "Coding involves writing instructions in programming languages so that computers can solve problems and perform operations."
+    ]
+  },
+
+  "how_it_works": {
+    "patterns": [
+      "how do you work",
+      "how are you made",
+      "how were you made",
+      "how does this chatbot work",
+      "how does codebot work",
+      "how do you understand me",
+      "how do you understand messages"
+    ],
+    "responses": [
+      "I normalize your text, compare it with predefined intent patterns, calculate confidence scores, extract entities, use conversation memory, and select an appropriate response.",
+      "I use rule-based NLP techniques rather than a large language model. My intent engine combines phrase matching, token overlap, and fuzzy matching."
+    ]
+  },
+
+  "capabilities": {
+    "patterns": [
+      "what can you do",
+      "your features",
+      "what are your capabilities",
+      "what features do you have",
+      "tell me your features",
+      "how can you help me"
+    ],
+    "responses": [
+      "I can detect intents, extract names and technologies, remember conversation context, answer basic AI and programming questions, calculate confidence scores, log conversations, and provide statistics."
+    ]
+  },
+
+  "thanks": {
+    "patterns": [
+      "thanks",
+      "thank you",
+      "thank",
+      "thanks a lot",
+      "thank you so much"
+    ],
+    "responses": [
+      "You're welcome! 😊",
+      "Happy to help!",
+      "Anytime! 🚀"
+    ]
+  },
+
+  "joke": {
+    "patterns": [
+      "tell me a joke",
+      "joke",
+      "make me laugh",
+      "say something funny",
+      "tell me something funny"
+    ],
+    "responses": [
+      "Why do programmers prefer dark mode? Because light attracts bugs! 🐛😂",
+      "Why was the computer cold? It left its Windows open! 😂"
+    ]
+  },
+
+  "time": {
+    "patterns": [
+      "what time is it",
+      "current time",
+      "tell me the time",
+      "what is the time",
+      "time now"
+    ],
+    "responses": []
+  },
+
+  "date": {
+    "patterns": [
+      "what is today's date",
+      "today date",
+      "what date is it",
+      "current date",
+      "what is the date",
+      "today's date"
+    ],
+    "responses": []
+  },
+
+  "positive": {
+    "patterns": [
+      "good",
+      "great",
+      "awesome",
+      "excellent",
+      "amazing",
+      "nice",
+      "fantastic",
+      "wonderful"
+    ],
+    "responses": [
+      "That's great to hear! 😄",
+      "Awesome! Keep going! 🚀",
+      "That's fantastic!"
+    ]
+  },
+
+  "negative": {
+    "patterns": [
+      "sad",
+      "bad",
+      "upset",
+      "angry",
+      "terrible",
+      "frustrated",
+      "not feeling good"
+    ],
+    "responses": [
+      "I'm sorry you're feeling that way. I hope things get better soon.",
+      "That sounds difficult. Take a breath and keep going."
+    ]
+  },
+
+  "internship": {
+    "patterns": [
+      "codeorbit",
+      "codeorbit tech",
+      "internship",
+      "ai internship",
+      "internship task",
+      "internship project",
+      "task 1",
+      "rule based chatbot"
+    ],
+    "responses": [
+      "This project was developed as Task 1 of the CodeOrbit Tech Artificial Intelligence Internship.",
+      "This is an advanced rule-based NLP chatbot created for the CodeOrbit Tech AI Internship."
+    ]
+  }
+}

@@ -1,2 +1,2 @@
-# No external dependencies required.
-# Python 3.9+ recommended.
+Python 3.9+
+# No third-party dependencies required.

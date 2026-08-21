@@ -1,0 +1,14 @@
+{
+  "python": {
+    "definition": "Python is a high-level, general-purpose programming language.",
+    "extra": "It is popular for AI, machine learning, automation, web development, and data science."
+  },
+  "artificial_intelligence": {
+    "definition": "Artificial Intelligence is the field of creating systems capable of performing tasks associated with human intelligence.",
+    "extra": "Examples include language understanding, image recognition, recommendation systems, and decision support."
+  },
+  "machine_learning": {
+    "definition": "Machine Learning is a subset of AI in which algorithms learn patterns from data.",
+    "extra": "Those patterns can be used for classification, prediction, recommendation, and other tasks."
+  }
+}
